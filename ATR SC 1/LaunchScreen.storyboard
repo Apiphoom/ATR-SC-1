@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="ipad11_0rounded" orientation="landscape" layout="fullscreen" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15509"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="1194" height="834"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Blankwhite" translatesAutoresizingMaskIntoConstraints="NO" id="fNI-6H-EIh">
+                                <rect key="frame" x="0.0" y="0.0" width="1194" height="814"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ATR Logo" translatesAutoresizingMaskIntoConstraints="NO" id="err-MC-isF">
+                                <rect key="frame" x="310" y="266" width="574" height="283"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="err-MC-isF" secondAttribute="trailing" constant="310" id="2Z1-eN-baL"/>
+                            <constraint firstItem="fNI-6H-EIh" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="CKM-ck-Bg1"/>
+                            <constraint firstItem="fNI-6H-EIh" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="EkH-6M-XTc"/>
+                            <constraint firstAttribute="bottom" secondItem="fNI-6H-EIh" secondAttribute="bottom" constant="20" symbolic="YES" id="HIR-qc-2DX"/>
+                            <constraint firstItem="err-MC-isF" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="266" id="KgX-cs-nkC"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="err-MC-isF" secondAttribute="bottom" constant="265" id="MOg-Lf-XCe"/>
+                            <constraint firstItem="err-MC-isF" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="310" id="NTT-sl-7Ke"/>
+                            <constraint firstItem="fNI-6H-EIh" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="pxm-Rm-IGg"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52.763819095477388" y="374.8201438848921"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="ATR Logo" width="673" height="415"/>
+        <image name="Blankwhite" width="2029" height="1520"/>
+    </resources>
+</document>
